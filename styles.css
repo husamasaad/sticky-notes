@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap');
+
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +9,7 @@ body {
   margin: 0;
   background:  white;
   font-family: 'Courier New', Courier, monospace;
+  font-family: 'Almarai', sans-serif;
   padding: 0 15px;
 }
 
@@ -35,7 +39,7 @@ body {
   padding: 17px;
   border-radius: 15px;
   resize: none;
-  font-size: 18px;
+  font-size: 14px;
   height: 100px;
   width: 100%;
   color: #444447;
@@ -106,15 +110,12 @@ body {
     line-height: 40px;
     font-size: 50px;
     bottom: 10px;
-    right: 10px;
+    right: 40px;
     background-color: rgb(248 238 174 / 100%);
     /* color: white; */
   }
   .btn:hover {
     transform: scale(1.2);
-  }
-  .btn.acitve {
-    
   }
 }
 
